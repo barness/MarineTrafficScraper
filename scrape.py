@@ -12,8 +12,8 @@ def scrapeURL(url):
     response = requests.get(my_url, headers=headers)
     html = response.content
 
-    #BeautifulSoup(markup, "xml")
-    soup = BeautifulSoup(html, "xml")
+    soup = BeautifulSoup(html)
+    #soup = BeautifulSoup(html, "xml")
     
     #print(soup.title.string)
     print("test")
