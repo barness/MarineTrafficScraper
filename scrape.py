@@ -1,5 +1,5 @@
 import requests
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
 helpful_link = 'en/ais/details/ships/shipid:442329/vessel:NORTHWESTERN'
@@ -13,9 +13,10 @@ def scrapeURL(url):
     html = response.content
 
     #BeautifulSoup(markup, "xml")
-    soup = BeautifulSoup(html, "xml")
+    soup = BeautifulSoup(html,'lxml').prettify()
     
     #print(soup.title.string)
-    print("test")
-    
+    print(soup)
+
+
 scrapeURL(helpful_link)
