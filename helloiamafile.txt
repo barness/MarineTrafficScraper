@@ -1,0 +1,36 @@
+MMSI: 367629440
+Call Sign: WDH5594
+Flag: USA [US]
+AIS Vessel Type: Passenger
+Deadweight: -
+Length Overall                    x Breadth Extreme: 26m × 7m
+Year Built: -
+Status: Active
+Position Received: 36 minutes ago (2018-11-01 02:17 (UTC))
+Vessel's Local Time: 2018-10-31 19:17 (UTC -7)
+Area: USWC - US West Coast
+Latitude / Longitude: 32.72161° / -117.2254°
+Status: Underway Using Engine
+Speed/Course: 2.5kn / 0°                                    
+
+
+
+
+MMSI: 367629440
+Call Sign: WDH5594
+Flag: USA [US]
+AIS Vessel Type: Passenger
+Deadweight: -
+Length Overall                    x Breadth Extreme: 26m × 7m
+Year Built: -
+Status: Active
+Position Received: 2 minutes ago (2018-11-01 03:02 (UTC))
+Vessel's Local Time: 2018-10-31 20:02 (UTC -7)
+Area: USWC - US West Coast
+Latitude / Longitude: 32.72332° / -117.2276°
+Status: Underway Using Engine
+Speed/Course: 1.7kn / 0°                                    
+
+
+
+
