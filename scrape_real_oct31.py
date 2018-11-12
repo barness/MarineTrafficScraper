@@ -146,7 +146,7 @@ def scrapeURL(url):
     #print(IMOFileName)
     
     file = open(IMOFileName+'.txt', 'a')
-    file.write(ShipData)
+    file.write(ShipData.encode('utf-8'))
     file.write('\n\n\n\n')
     file.close()
 
