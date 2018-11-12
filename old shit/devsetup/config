@@ -1,4 +1,0 @@
-logSyslog = true
-logFile = /var/log/polipo/polipo.log
-diskCacheRoot = ""
-socksParentProxy = localhost:9050
