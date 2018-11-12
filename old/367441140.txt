@@ -1,0 +1,57 @@
+Position Received: 2 minutes ago (2018-11-11 03:48 (UTC))
+Vessel's Local Time: 2018-11-10 19:48 (UTC -8)
+Area: USWC - US West Coast
+Latitude / Longitude: 32.50081° / -119.1237°
+Status: Underway Using Engine
+Speed/Course: 8.4kn / 254°
+AIS Source: 1296 KB6LA                                    
+MMSI: 367441140
+Call Sign: WDF3541
+Flag: USA [US]
+AIS Vessel Type: Wing In Grnd
+Gross Tonnage: -
+Deadweight: -
+Length Overall                    x Breadth Extreme: 21.2m × 7.6m
+Year Built: -
+
+
+
+
+Position Received: 3 minutes ago (2018-11-11 03:48 (UTC))
+Vessel's Local Time: 2018-11-10 19:48 (UTC -8)
+Area: USWC - US West Coast
+Latitude / Longitude: 32.50081° / -119.1237°
+Status: Underway Using Engine
+Speed/Course: 8.4kn / 254°
+AIS Source: 1296 KB6LA                                    
+MMSI: 367441140
+Call Sign: WDF3541
+Flag: USA [US]
+AIS Vessel Type: Wing In Grnd
+Gross Tonnage: -
+Deadweight: -
+Length Overall                    x Breadth Extreme: 21.2m × 7.6m
+Year Built: -
+
+
+
+
+Position Received: 2 minutes ago (2018-11-11 03:48 (UTC))
+Vessel's Local Time: 2018-11-10 19:48 (UTC -8)
+Area: USWC - US West Coast
+Latitude / Longitude: 32.50081° / -119.1237°
+Status: Underway Using Engine
+Speed/Course: 8.4kn / 254°
+AIS Source: 1296 KB6LA                                    
+MMSI: 367441140
+Call Sign: WDF3541
+Flag: USA [US]
+AIS Vessel Type: Wing In Grnd
+Gross Tonnage: -
+Deadweight: -
+Length Overall                    x Breadth Extreme: 21.2m × 7.6m
+Year Built: -
+
+
+
+
