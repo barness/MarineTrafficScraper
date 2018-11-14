@@ -1,3 +1,7 @@
+#ask what column headers need to be. what order should the data be in, what kind of formatting should the rows have
+#do we need to strip certain characters from the csv?
+#do they have excel spreadsheets with cool functions for spatial/temporal analysis?
+
 import requests
 from bs4 import BeautifulSoup
 import time
