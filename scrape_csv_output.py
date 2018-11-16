@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import requests
 from bs4 import BeautifulSoup
 import itertools
@@ -11,7 +12,7 @@ main_url = 'https://www.marinetraffic.com/'
 details_id = "vessel_details_general"
 position_id = "tabs-last-pos"
 
-is_man_hot = False
+man_is_not_hot = True
 
 ShipList=['en/ais/details/ships/shipid:3927670/mmsi:368437000/vessel:368437000', 
 'en/ais/details/ships/shipid:4013342/mmsi:367441140/vessel:367441140',
@@ -38,10 +39,10 @@ def scrapeURL(url):
     soup = BeautifulSoup(html, 'html.parser')
 
     for i in soup.find_all(attrs={"class": "bg-info bg-light padding-10 radius-4 text-left"}):
-        listy0=i.text.strip().replace('\n', "")
+        listy0=i.text.encode('utf-8').strip().replace('\n', "")
 
     for i in soup.find_all(id=position_id):    
-        listy1=i.text.strip().replace('\n', "")
+        listy1=i.text.encode('utf-8').strip().replace('\n', "")
        
 
     ShipData=''
@@ -189,9 +190,7 @@ def scrapeURL(url):
     MMSI=start1[0].split()
     MMSIFileName=MMSI[1]
 
-    file = open(MMSIFileName+'.csv', 'a')
-    with file:
-
+    with open(MMSIFileName+'.csv', 'a') as file:
         fields = ["Position Received", "Vessel's Local Time", "Area", "Latitude / Longitude", "Speed/Course",
                   "AIS Source","MMSI", "Call Sign", "Flag", "AIS Vessel Type", "Gross Tonnage", "Deadweight", "Length Overall x Breadth Extreme", "Year Built", "Status"]
         writer = csv.DictWriter(file, fieldnames=fields)
@@ -203,7 +202,7 @@ def scrapeURL(url):
 
 #ShipList is a list of all unique url's associated with each ship
 #Pull data from each ship once every 5 minutes
-while not is_man_hot:
+while man_is_not_hot:
     for ship in ShipList:
         try:
             scrapeURL(ship)
