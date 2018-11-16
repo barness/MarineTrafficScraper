@@ -1,9 +1,0 @@
-['en/ais/details/ships/shipid:3918296/mmsi:338221954/vessel:338221954',
-'en/ais/details/ships/shipid:4041056/mmsi:367033990/vessel:367033990',
-'en/ais/details/ships/shipid:5505511/mmsi:368030070/vessel:368030070',
-'en/ais/details/ships/shipid:3508404/mmsi:367543000/vessel:367543000',
-'en/ais/details/ships/shipid:3998780/mmsi:368347000/vessel:368347000',
-'en/ais/details/ships/shipid:3932639/mmsi:367186270/vessel:367186270',
-'en/ais/details/ships/shipid:274750/mmsi:367042740/vessel:367042740',
-'en/ais/details/ships/shipid:3929484/mmsi:367575750/vessel:367575750',
-'en/ais/details/ships/shipid:4216421/mmsi:366964020/vessel:366964020']
