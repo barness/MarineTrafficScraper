@@ -9,7 +9,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleW
 
 main_url = 'https://www.marinetraffic.com/'
 
-details_id = "vessel_details_general"
+details_id = "bg-info bg-light padding-10 radius-4 text-left"
 position_id = "tabs-last-pos"
 
 man_is_not_hot = True
@@ -38,7 +38,7 @@ def scrapeURL(url):
     
     soup = BeautifulSoup(html, 'html.parser')
 
-    for i in soup.find_all(attrs={"class": "bg-info bg-light padding-10 radius-4 text-left"}):
+    for i in soup.find_all(attrs={"class": details_id}):
         listy0=i.text.encode('utf-8').strip().replace('\n', "")
 
     for i in soup.find_all(id=position_id):    
