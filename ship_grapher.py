@@ -1,5 +1,6 @@
 import turtle
 
+
 #takes in a list of ship MMSI's and outputs a graph of the ships movement
 def display_ship_movement(ship_list):
     t=turtle.Pen()
